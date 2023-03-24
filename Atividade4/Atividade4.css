@@ -1,0 +1,102 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloMaior {
+    display: block;
+    display: flex;
+    width: 50%;
+    margin: 10px 0px 0 0px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ec69c5;
+    background-color: #ec69c5;
+    border-radius: 30px;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/564x/5b/66/71/5b6671987f14fed73c478b011bc755af.jpg");
+}
+
+.tabelaMembros {
+    position: absolute;
+    background-color: #ec69c5;
+    border: 1px solid #ec69c5;
+    margin: 10px 10px 0 1300px;
+    padding: 10px;
+    width: 320px;
+    border-radius: 20px;
+}
+
+.flex-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Membro1 {
+    margin: 0 0 10px 0;
+    padding: 0.3rem;
+    background-color: #82e2ff;
+    font: 1rem 'Fira Sans', sans-serif;
+    height: 300px;
+    width: 700px;
+    border-radius: 20px;
+}
+
+.Membro2 {
+    margin: 0 0 10px 0;
+    padding: 0.3rem;
+    background-color: #ebbb37;
+    font: 1rem 'Fira Sans', sans-serif;
+    height: 300px;
+    width: 700px;
+    border-radius: 20px;
+}
+
+.Membro3 {
+    margin: 0 0 10px 0;
+    padding: 0.3rem;
+    background-color: #ebe41e;
+    font: 1rem 'Fira Sans', sans-serif;
+    height: 300px;
+    width: 700px;
+    border-radius: 20px;
+}
+
+.Membro1.Membro2.Membro3 > h1,
+.membros-dados {
+    margin: 0.5rem;
+    padding: 0.3rem;
+    font-size: 1.7rem;
+    border-radius: 10px;
+}
+
+.membros-dados {
+    background-color: #ffffff;
+    height: 220px;
+}
+
+
+.membros-dados > h2 {
+    margin: 0.2rem 0 10px 0;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.membros-dados > p {
+    margin: 0.2rem;
+    font-size: 1rem;
+    word-spacing: 1px;
+    text-align: justify;
+}
+
+.img-Membros1 {
+    height: 170px;
+    width: 170px;
+    float: left;
+    margin: 0 10px 0 0;
+}
