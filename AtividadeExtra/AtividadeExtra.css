@@ -1,0 +1,73 @@
+.divMod{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+
+@media (min-width: 0px) and (max-width: 420px)
+{
+  .divMod
+   {
+    background-color: rgb(59, 59, 59);
+   }
+   .texto::after {
+       content: "Cinza";
+   }
+
+}
+
+@media (min-width: 421px) and (max-width: 768px)
+{
+  .divMod
+   {
+    background-color: orange;
+   }
+   .texto::after {
+    content: "Laranja";
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px)
+{
+  .divMod
+   {
+    background-color: rgb(226, 65, 191);
+   }
+   .texto::after {
+    content: "Rosa";
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1080px)
+{
+  .divMod
+   {
+    background-color: red;
+   }
+   .texto::after {
+    content: "Vermelho";
+    }
+}
+
+@media (min-width: 1081px) and (max-width: 1366px)
+{
+  .divMod
+   {
+    background-color: rgb(20, 32, 192);
+   }
+   .texto::after {
+    content: "Azul";
+    }
+}
+
+@media (min-width: 1367px) and  (max-width: 1920px)
+{
+  .divMod
+   {
+    background-color: yellow;
+   }
+   .texto::after {
+    content: "Amarelo";
+    }
+}
