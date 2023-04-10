@@ -1,0 +1,22 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 50px;
+}
+
+.Org {
+	margin-top: 50px;
+}
+
+button {
+	padding: 10px 20px;
+	margin: 0 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+
