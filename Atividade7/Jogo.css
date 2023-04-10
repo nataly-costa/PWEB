@@ -1,0 +1,72 @@
+body {
+    background-image: url("https://hipertintas.vteximg.com.br/arquivos/ids/158029-340-340/Cinza-Sherwin-Williams.png?v=637699012974200000");
+}
+
+
+h1{
+	text-align: center;
+	color: rgb(0, 0, 0);
+
+}
+
+h2{
+	text-align: center;
+	color: rgb(0, 0, 0);
+
+}
+
+.choiches {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+
+}
+
+.choiches button {
+    margin-right: 10px;
+	text-align: center;
+	font-size: 1.2em;
+	margin: 0 1em;
+	padding: 0.5em 1em;
+	border: none;
+	border-radius: 0.3em;
+	background-color: #efefef;
+	cursor: pointer; 
+
+}
+
+#resultado {
+    font-weight: bold;
+    font-size: 18px;
+	margin-top: 2em;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.Pedra{
+	flex: 1 0 100%;
+	max-width: 100%;
+    width: 200px; 
+	height: 150px; 
+	display: block;
+	margin: 0 auto;
+}
+
+.Papel{
+	flex: 1 0 100%;
+	max-width: 100%;
+    width: 200px; 
+	height: 150px; 
+	display: block;
+	margin: 0 auto;
+}
+
+.Tesoura{
+	flex: 1 0 100%;
+	max-width: 100%;
+    width: 200px; 
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+}
