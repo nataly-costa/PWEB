@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atividade10</title>
+</head>
+<body>
+    <script>
+        var aluno1 = new Object();
+        aluno1.ra = "00001234";
+        aluno1.nome = "Pedro da Silva";
+        alert("ra=" + aluno1.ra + "\nnome = " + aluno1.nome);
+
+        // usando {}
+        var aluno2 = {};
+        aluno2.ra = "1234";
+        aluno2["nome"] = "Mathues";
+        alert("ra=" + aluno2.ra + "\nnome = " + aluno2.nome);
+
+        // Maneira lateral
+        var aluno3 = {
+            ra: "123456",
+            nome: "Giovana"
+
+        };
+
+        alert("ra=" + aluno3.ra + "\nnome = " + aluno3.nome);
+
+        function Aluno(ra, nome){
+        this.ra = ra;
+        this.nome = nome;
+
+        this.MostraDados = function()
+            {
+            alert("ra=" + this.ra+ "\nnome=" + this.nome);
+            }
+
+        }
+
+        var aluno4 = new Aluno("123", "Lucas");
+        var x = aluno4.MostraDados();
+
+
+
+    </script>
+    
+</body>
+</html>
